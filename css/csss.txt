@@ -1,0 +1,9 @@
+p {
+	color: red;
+}
+
+strong {
+	font-size: 26px;
+	color:brown
+}
+
