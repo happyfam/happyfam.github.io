@@ -8,18 +8,30 @@ strong {
 }
 
 em{
-	font-size: 18px;
+	font-size: 21px;
 	font-style: arial;
 	color: lightblue;
 }
 
-ul{
-	list-style-type: none;
-	margin:0;
-	padding:0;
-}
-
-li a{
-	display: block;
-	width: 60px;
-}
+nav ul {
+   list-style-type: none;
+   margin: 0px;
+   padding: 0px;
+ }
+ 
+ nav ul li {
+   float: left;
+ }
+ 
+ a {
+   display: block;
+   width: px;
+   padding: 14px 17px;
+   text-decoration: none;
+   background-color: #666
+ }
+ 
+ nav ul li a:hover {
+   background-color: black;
+   color: purple
+ }
