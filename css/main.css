@@ -4,10 +4,11 @@ p {
 
 strong {
 	font-size: 26px;
-	color:brown
+	color:brown;
 }
 
 em{
 	font-size: 18px;
-	font-style: arial
+	font-style: arial;
+	color: lightblue;
 }
