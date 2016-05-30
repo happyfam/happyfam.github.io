@@ -1,11 +1,16 @@
 p {
-	color: green;
+	color: #566;
+  font-style:arial;
+  font-size:17px
+  
 }
 
 strong {
-	font-size: 22px;
-	color:darkbrown;
+	font-size: 19px;
+	color:#976;
+  font-style:arial;
 }
+
 
 h2{
   clear: left;
@@ -15,7 +20,18 @@ h2{
 em{
 	font-size: 21px;
 	font-style: arial;
-	color: lightblue;
+	color: blue;
+}
+ol {
+    background: grey;
+    padding: 30px;
+    margin:10px
+}
+
+ol li{
+  font-style:arial;
+  font-size:18px;
+  color: white
 }
 
 nav ul {
@@ -39,4 +55,4 @@ nav ul {
  nav ul li a:hover {
    background-color: black;
    color: purple;
- }
+}
