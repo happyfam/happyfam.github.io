@@ -1,13 +1,13 @@
 p {
-	color: #566;
-  font-style:arial;
+	color: #466;
+  font-style:oblique;
   font-size:17px
   
 }
 
 strong {
 	font-size: 19px;
-	color:#976;
+	color:#991;
   font-style:arial;
 }
 
@@ -20,24 +20,27 @@ h2{
 em{
 	font-size: 21px;
 	font-style: arial;
-	color: blue;
+	color: #842;
+  font-weight: bold;
 }
 ol {
     background: grey;
     padding: 30px;
-    margin:10px
+    margin:10px;
+    font-weight: bold;
+    overflow: hidden;
 }
 
 ol li{
-  font-style:arial;
+  font-style:italic;
   font-size:18px;
   color: white
 }
 
 nav ul {
    list-style-type: none;
-   margin: 0px;
-   padding: 0px;
+   margin: 10px;
+   padding: 10px;
    width: 100%;
  }
  
