@@ -3,8 +3,13 @@ p {
 }
 
 strong {
-	font-size: 26px;
-	color:brown;
+	font-size: 22px;
+	color:darkbrown;
+}
+
+h2{
+  clear: left;
+  display: block;
 }
 
 em{
@@ -17,15 +22,15 @@ nav ul {
    list-style-type: none;
    margin: 0px;
    padding: 0px;
+   width: 100%;
  }
  
  nav ul li {
    float: left;
  }
  
- a {
+ nav ul li a {
    display: block;
-   width: px;
    padding: 14px 17px;
    text-decoration: none;
    background-color: #666
