@@ -1,8 +1,4 @@
-*{
-	margin-left: 5%;
-	margin-right:5%;
-	
-}
+
 p {
 	color: #466;
   font-style:oblique;
@@ -63,7 +59,8 @@ nav ul {
  nav ul li {
    float: left;
    font-size:20px;
-   font-style: arial;
+   font-style: italic;
+   font-weight: bold
  }
  
  nav ul li a {
