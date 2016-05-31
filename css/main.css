@@ -17,6 +17,11 @@ h2{
   display: block;
 }
 
+h3{
+	font-style:oblique;
+	font-size:20px;
+	color: #055
+}
 em{
 	font-size: 21px;
 	font-style: arial;
