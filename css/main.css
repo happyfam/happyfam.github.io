@@ -61,7 +61,6 @@ nav ul {
 }
 
 .centerMe {
-	left-margin: auto;
-	right-margin:auto;
+	margin: 5%;	
 	display:block;
 }
