@@ -1,3 +1,9 @@
+*{
+	background-color: skyblue;
+	margin-left: 5%;
+	margin-right:5%;
+	
+}
 p {
 	color: #466;
   font-style:oblique;
@@ -29,6 +35,7 @@ em{
   font-weight: bold;
 }
 ol {
+    list-style-type: lower-alpha;
     background: grey;
     padding: 30px;
     margin:10px;
@@ -43,10 +50,15 @@ ol li{
 }
 
 nav ul {
-   list-style-type: none;
-   margin: 10px;
-   padding: 10px;
-   width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 50px;
+  background-color: #666;
  }
  
  nav ul li {
@@ -57,7 +69,7 @@ nav ul {
    display: block;
    padding: 14px 17px;
    text-decoration: none;
-   background-color: #666
+   background-color: #666;
  }
  
  nav ul li a:hover {
