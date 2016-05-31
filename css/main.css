@@ -59,3 +59,9 @@ nav ul {
    background-color: black;
    color: purple;
 }
+
+.centerMe {
+	left-margin: auto;
+	right-margin:auto;
+	display:block;
+}
