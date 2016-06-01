@@ -1,4 +1,3 @@
-
 p {
 	color: #466;
   font-style:oblique;
@@ -11,8 +10,17 @@ strong {
 	color:#991;
   font-style:arial;
 }
+
 h1{
-	margin:100px;
+	margin:65px;
+  font-style:oblique;
+  color: #003;
+  border-style: double;
+  border-right-color:#377;
+  border-left-color:#377;
+  border-top-color:#219;
+  border-bottom-color:#219;
+  text-align:center;
 }
 
 
@@ -34,7 +42,7 @@ em{
 }
 ol {
     list-style-type: lower-alpha;
-    background: grey;
+    background: #012;
     padding: 30px;
     margin:10px;
     font-weight: bold;
