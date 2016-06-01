@@ -1,57 +1,73 @@
 p {
-	color: #466;
-  font-style:oblique;
-  font-size:17px
-  
+  color: #466;
+  font-style: oblique;
+  font-size: 17px
+}
+
+div {
+  background-color: lightgrey;
+  width: 300px;
+  padding: 20px;
+  border: 25px solid navy;
+  margin: 25px;
 }
 
 strong {
-	font-size: 19px;
-	color:#991;
-  font-style:arial;
+  font-size: 19px;
+  color: #991;
+  font-style: arial;
 }
 
-h1{
-	margin:65px;
-  font-style:oblique;
+h1 {
+  margin: 65px;
+  font-style: oblique;
   color: #003;
   border-style: double;
-  border-right-color:#377;
-  border-left-color:#377;
-  border-top-color:#219;
-  border-bottom-color:#219;
-  text-align:center;
+  border-right-color: #377;
+  border-left-color: #377;
+  border-top-color: #219;
+  border-bottom-color: #219;
+  text-align: center;
 }
 
-
-h2{
+h2 {
   clear: left;
   display: block;
 }
 
-h3{
-	font-style:oblique;
-	font-size:20px;
-	color: #004
-}
-em{
-	font-size: 21px;
-	font-style: arial;
-	color: #842;
-  font-weight: bold;
-}
-ol {
-    list-style-type: lower-alpha;
-    background: #012;
-    padding: 30px;
-    margin:10px;
-    font-weight: bold;
-    overflow: hidden;
+h3 {
+  font-style: oblique;
+  font-size: 20px;
+  color: #004
 }
 
-ol li{
-  font-style:italic;
-  font-size:18px;
+h4 {
+  font-size: 25px;
+  font-style: italic;
+  border-style: inset;
+  text-align: center;
+  border-color: green;
+}
+
+em {
+  font-size: 21px;
+  font-style: arial;
+  color: #842;
+  font-weight: bold;
+}
+
+ol {
+  list-style-type: lower-alpha;
+  background: #012;
+  padding: 30px;
+  margin: 10px;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+ol li {
+  font-style: italic;
+  font-size: 18px;
   color: white
 }
 
@@ -65,29 +81,29 @@ nav ul {
   padding: 0;
   padding-left: 50px;
   background-color: #666;
- }
- 
- nav ul li {
-   float: left;
-   font-size:20px;
-   font-style: italic;
-   font-weight: bold
- }
- 
- nav ul li a {
-   display: block;
-   padding: 14px 17px;
-   text-decoration: none;
-   background-color: #666;
- }
- 
- nav ul li a:hover {
-   background-color: black;
-   color: purple;
+}
+
+nav ul li {
+  float: left;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold
+}
+
+nav ul li a {
+  display: block;
+  padding: 14px 17px;
+  text-decoration: none;
+  background-color: #666;
+}
+
+nav ul li a:hover {
+  background-color: black;
+  color: purple;
 }
 
 .centerMe {
-	margin-left: auto;
-	margin-right: auto;
-	display:block;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
