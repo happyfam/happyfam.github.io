@@ -28,11 +28,14 @@ h1 {
   border-top-color: #219;
   border-bottom-color: #219;
   text-align: center;
+  color:#005;
 }
 
 h2 {
   clear: left;
   display: block;
+  color:#005;
+  
 }
 
 h3 {
@@ -47,6 +50,12 @@ h4 {
   border-style: inset;
   text-align: center;
   border-color: green;
+}
+h5{
+	font-size: 17px;
+    font-style: oblique;
+	font-weight: bold;
+	color:#005;
 }
 
 em {
