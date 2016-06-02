@@ -4,13 +4,6 @@ p {
   font-size: 17px
 }
 
-div {
-  background-color: lightgrey;
-  width: 300px;
-  padding: 20px;
-  border: 25px solid navy;
-  margin: 25px;
-}
 
 strong {
   font-size: 19px;
@@ -110,6 +103,15 @@ nav ul li a:hover {
   background-color: black;
   color: purple;
 }
+
+div {
+  background-color:lightgrey;
+  width:300px;
+  padding:20px;
+  border:25px solid navy;
+  margin:25px;
+}
+
 
 .centerMe {
   margin-left: auto;
