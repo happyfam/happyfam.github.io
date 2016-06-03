@@ -1,7 +1,7 @@
 p {
   color: #466;
   font-style: oblique;
-  font-size: 17px
+  font-size: 18px
 }
 
 
@@ -49,6 +49,11 @@ h5{
     font-style: oblique;
 	font-weight: bold;
 	color:#005;
+	text-align:center;
+}
+h6 {
+	font-weight: bolder;
+	text-align:center;
 }
 
 em {
@@ -146,4 +151,8 @@ input[type=text] {
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+
+body {
+    background-image: url("back-faq.gif");
 }
